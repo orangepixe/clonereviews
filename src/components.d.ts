@@ -14,6 +14,7 @@ declare module 'vue' {
     MdiAccountBox: typeof import('~icons/mdi/account-box')['default']
     MdiExportVariant: typeof import('~icons/mdi/export-variant')['default']
     NavComponent: typeof import('./components/NavComponent.vue')['default']
+    OfferModalComponent: typeof import('./components/OfferModalComponent.vue')['default']
     OffersComponent: typeof import('./components/OffersComponent.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']

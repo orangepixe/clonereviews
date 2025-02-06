@@ -1,6 +1,6 @@
 :root {
-  --ta-sans-serif: "Trip Sans VF", "Trip Sans", Arial, sans-serif;
-  --ta-monospace: "Trip Sans Mono", Courier, monospace, Arial, sans-serif;
+  --ta-sans-serif: 'Trip Sans VF', 'Trip Sans', Arial, sans-serif;
+  --ta-monospace: 'Trip Sans Mono', Courier, monospace, Arial, sans-serif;
   --app-primary-color: #00aa6c;
   --app-primary-color-hover: #00aa6c;
   --app-warning-color: #d53939;
@@ -52,8 +52,6 @@
   stroke: var(--app-warning-color);
 }
 
-
-
 html,
 body,
 #app {
@@ -61,8 +59,10 @@ body,
   margin: 0;
   padding: 0;
 }
-
+body.modal-active {
+  height: 100% !important;
+  overflow-y: hidden !important;
+}
 .breadcrumbs {
   font: var(--text-small);
 }
-
